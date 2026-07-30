@@ -1,5 +1,18 @@
 {
   "$schema": "https://opencode.ai/config.json",
+  "mcp": {
+    "context7": {
+      "type": "local",
+      "command": [
+        "npx",
+        "-y",
+        "@upstash/context7-mcp",
+        "--api-key",
+        "ctx7sk-5e9a1c83-cf24-4d5e-abcb-14903114ceb9"
+      ],
+      "enabled": false
+    }
+  },
   "provider": {
     "ollama": {
       "npm": "@ai-sdk/openai-compatible",
@@ -8,10 +21,10 @@
         "baseURL": "http://localhost:11434/v1"
       },
       "models": {
-        "qwen35_4b": {
+        "qwen3.5:4b": {
           "name": "qwen3.5:4b"
         },
-        "gemma4_latest": {
+        "gemma4:latest": {
           "name": "gemma4:latest"
         }
       }
