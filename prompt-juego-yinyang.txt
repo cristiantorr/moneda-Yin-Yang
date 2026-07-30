@@ -1,0 +1,16 @@
+Actúa como un desarrollador experto en React y Tailwind CSS. Necesito que crees un componente de juego interactivo basado en el clásico "Cara o Sello" (Heads or Tails), pero con una temática mística de la moneda del Yin Yang.
+
+Requisitos técnicos del juego:
+1. Tecnologías: React (Functional Components, Hooks como useState/useEffect) y estilos modernos con Tailwind CSS. Si usas iconos, utiliza 'lucide-react'.
+2. Moneda Yin Yang: La moneda debe tener dos lados bien diferenciados:
+   - Lado Yin (Oscuridad/Negro): Representa la intuición, la luna o la noche.
+   - Lado Yang (Luz/Blanco): Representa la acción, el sol o el día.
+3. Animación 3D: Al hacer clic en el botón "Lanzar Moneda", se debe activar una animación fluida en CSS de rotación en 3D (flip animation) que dure alrededor de 1.2 segundos antes de revelar el resultado.
+4. Sistema de Apuestas y Premios (Puntos/Monedas virtuales):
+   - El jugador empieza con 100 "Puntos de Equilibrio".
+   - Antes de lanzar, el jugador elige a qué lado apostar (Yin o Yang) y la cantidad de puntos.
+   - Si acierta, duplica lo apostado. Si falla, lo pierde.
+5. Mensajes de Destino (Premios de Sabiduría): Cada vez que la moneda caiga, además de sumar/restar puntos, debe mostrar un mensaje corto o "recompensa de sabiduría" estilo galleta de la fortuna basado en el resultado (Ej: Si cae Yin: "Es momento de descansar y reflexionar". Si cae Yang: "La energía está de tu lado, actúa ahora").
+6. Interfaz de Usuario (UI): Un diseño limpio, centrado, con un fondo oscuro espiritual (slate o zinc profundo), contador de puntos visible, historial de los últimos 5 lanzamientos, y efectos visuales de partículas o destellos cuando ganes.
+
+Todo sea en español por favor.
